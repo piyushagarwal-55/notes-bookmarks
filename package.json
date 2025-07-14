@@ -1,32 +1,22 @@
 {
-  "name": "notebook",
+  "name": "notebook-frontend",
   "version": "1.0.0",
-  "description": "Premium full-stack web application for managing notes and bookmarks",
+  "description": "Frontend for Premium full-stack web application for managing notes and bookmarks",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "server": "node backend/server.js",
-    "server:dev": "nodemon backend/server.js",
     "vercel-build": "next build",
     "deploy": "vercel --prod"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.10",
     "axios": "^1.6.0",
-    "bcryptjs": "^2.4.3",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
     "date-fns": "^4.1.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
     "framer-motion": "^12.23.5",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.0",
     "next": "^14.0.0",
-    "node-fetch": "^3.3.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-hot-toast": "^2.5.2",
@@ -40,7 +30,6 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.0.0",
     "eslint-config-next": "^14.0.0",
-    "nodemon": "^3.0.1",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.0.0"
@@ -49,9 +38,9 @@
     "notebook",
     "notes",
     "bookmarks",
-    "fullstack",
-    "nextjs"
-  ],
-  "author": "Notebook Team",
-  "license": "MIT"
+    "frontend",
+    "nextjs",
+    "react",
+    "typescript"
+  ]
 }
