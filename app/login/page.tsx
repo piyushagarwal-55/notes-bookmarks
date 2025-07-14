@@ -41,9 +41,13 @@ export default function LoginPage() {
       const data = await response.json()
 
       if (data.success) {
-        // Redirect to notes page on successful login
-        router.push('/notes')
+        console.log('Login successful:', data)
+        // Small delay to ensure cookie is set
+        setTimeout(() => {
+          router.push('/notes')
+        }, 100)
       } else {
+        console.error('Login failed:', data)
         setError(data.message || 'Login failed')
       }
     } catch (err) {

@@ -61,9 +61,13 @@ export default function SignupPage() {
       const data = await response.json()
 
       if (data.success) {
-        // Redirect to notes page on successful registration
-        router.push('/notes')
+        console.log('Registration successful:', data)
+        // Small delay to ensure cookie is set
+        setTimeout(() => {
+          router.push('/notes')
+        }, 100)
       } else {
+        console.error('Registration failed:', data)
         setError(data.message || 'Registration failed')
       }
     } catch (err) {
