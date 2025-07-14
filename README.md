@@ -1,33 +1,31 @@
-# 📓 Notebook – Premium Notes & Bookmark Manager
+# 📓 Notebook – Frontend Application
 
-A modern full-stack web application designed to help you manage your personal notes and web bookmarks with ease. Built with a fast, responsive UI and privacy-first architecture to offer a seamless, clutter-free experience.
+A modern Next.js frontend application for managing personal notes and web bookmarks. This is the frontend component that connects to a separate Express.js backend API.
 
 ## ✨ Features
 
-🔐 **Secure Login System** – JWT-based authentication  
-🍪 **Privacy-First Cookies** – HTTP-only cookies for secure sessions  
+🔐 **Secure Authentication** – JWT-based login system  
 🎨 **Beautiful Interface** – Designed with Tailwind CSS  
 📱 **Fully Responsive** – Works perfectly across devices  
 📝 **Rich Note Editor** – Markdown support with live preview  
-🔖 **Bookmark Manager** – Save and organize your favorite links  
-⭐ **Favorites System** – Mark important notes and bookmarks  
-🏷️ **Tag Management** – Organize content with custom tags  
-🔍 **Advanced Search** – Find content quickly with smart filters  
+🔖 **Bookmark Manager** – Save and organize favorite links  
+⭐ **Favorites System** – Mark important content  
+🏷️ **Tag Management** – Organize with custom tags  
+🔍 **Advanced Search** – Smart content filtering  
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Next.js 14** – Powerful React framework with App Router
-- **Tailwind CSS** – Utility-first CSS framework for modern styling
-- **TypeScript** – Type-safe JavaScript for better dev experience
-- **Framer Motion** – Smooth animations and transitions
-- **React Icons** – Beautiful icon library
+- **Next.js 14** – React framework with App Router
+- **Tailwind CSS** – Modern CSS framework
+- **TypeScript** – Type-safe development
+- **Framer Motion** – Smooth animations
+- **React Icons** – Icon library
 
-### Backend
-- **Node.js** – High-performance JavaScript runtime
-- **Express.js** – Minimal and fast web server
-- **MongoDB** – Scalable NoSQL database
-- **Mongoose** – ODM to work with MongoDB seamlessly
+### Backend (Separate Repository)
+- **Express.js API** – RESTful backend services
+- **MongoDB** – Database storage
+- **JWT Authentication** – Secure user sessions
 
 ### Authentication
 - **JWT (JSON Web Tokens)** – Stateless user authentication
